@@ -28,6 +28,10 @@ module.exports = opts => buf => {
 		args.push(`--colors=${opts.colors}`);
 	}
 
+	if (opts.lossy) {
+		args.push(`--lossy=${opts.lossy}`);
+	}
+
 	args.push('--output', execBuffer.output, execBuffer.input);
 
 	return execBuffer({
