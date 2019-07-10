@@ -26,7 +26,7 @@
 	],
 	"dependencies": {
 		"exec-buffer": "^3.0.0",
-		"gifsicle": "https://github.com/imagemin/gifsicle-bin.git#fc7bad55b6f7a2940ab0accbc9f6deddc666f4f4",
+		"gifsicle": "https://github.com/plambros/gifsicle-bin.git",
 		"is-gif": "^3.0.0"
 	},
 	"devDependencies": {
